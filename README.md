@@ -4,25 +4,25 @@ Next Auth is a Next.js project designed to demonstrate essential backend functio
 
 ## Features
 
--   **User Authentication**: Secure user registration, login, and logout using NextAuth.js.
--   **Email Verification**: Send verification emails to users after registration to confirm their email addresses.
--   **Profile Management**: Allow users to view and update their profile details securely.
+- **User Authentication**: Secure user registration, login, and logout using NextAuth.js.
+- **Email Verification**: Send verification emails to users after registration to confirm their email addresses.
+- **Profile Management**: Allow users to view and update their profile details securely.
 
 ## Tech Stack
 
--   **Next.js**: React framework with full-stack capabilities.
--   **MongoDB**: NoSQL database for storing user data.
--   **Mongoose**: ODM for MongoDB to model application data.
--   **Nodemailer**: Node.js library for sending emails from Next.js API routes.
--   **Tailwind CSS**: Utility-first CSS framework for styling the application.
--   **BcryptJs**: For password hashing and generating some hash.
+- **Next.js**: React framework with full-stack capabilities.
+- **MongoDB**: NoSQL database for storing user data.
+- **Mongoose**: ODM for MongoDB to model application data.
+- **Nodemailer**: Node.js library for sending emails from Next.js API routes.
+- **Tailwind CSS**: Utility-first CSS framework for styling the application.
+- **BcryptJs**: For password hashing and generating some hash.
 
 ## Installation
 
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/alok-x0s1/next-auth.git
+    git clone https://github.com/03aey/next-auth.git
     cd next-auth
     ```
 
@@ -37,17 +37,17 @@ Next Auth is a Next.js project designed to demonstrate essential backend functio
     Create a `.env` file in the root directory and add the following environment variables:
 
     ```plaintext
-        MONGO_URI=your_mongodb_connection_string
-        DOMAIN=http://localhost:3000
-        ACCESS_TOKEN_SECRET=your secret token
-        ACCESS_TOKEN_EXPIRY= your secret token expiry time
-        NEXTAUTH_SECRET=your_nextauth_secret
-        USER_MAIL=your_email_address
-        MAIL_HOST=your smtp_host
-        MAIL_PORT=your smtp_port
-        MAIL_USER=your smtp_email_user
-        MAIL_PASS=your smtp_email_password
-    ```    
+    MONGO_URI=your_mongodb_connection_string
+    DOMAIN=http://localhost:3000
+    ACCESS_TOKEN_SECRET=your secret token
+    ACCESS_TOKEN_EXPIRY= your secret token expiry time
+    NEXTAUTH_SECRET=your_nextauth_secret
+    USER_MAIL=your_email_address
+    MAIL_HOST=your smtp_host
+    MAIL_PORT=your smtp_port
+    MAIL_USER=your smtp_email_user
+    MAIL_PASS=your smtp_email_password
+    ```
 
 4.  **Run the development server:**
 
@@ -55,7 +55,7 @@ Next Auth is a Next.js project designed to demonstrate essential backend functio
     npm run dev
     ```
 
-    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Open [localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Usage
 
@@ -74,3 +74,9 @@ Authenticated users can view and update their profile information such as name a
 ## Contributing
 
 If you'd like to contribute, feel free to fork the repository and submit a pull request.
+
+### Connect With Me
+
+[![GitHub](https://img.shields.io/badge/GitHub-Alok%20Yadav-181717?logo=github)](https://github.com/03aey)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alok%20Yadav-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/03aey)
+[![LinkedIn](https://img.shields.io/badge/Instagram-Alok%20Yadav-E4405F?logo=instagram&logoColor=white)](https://instagram.com/03aey)
